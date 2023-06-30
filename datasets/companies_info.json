@@ -1,0 +1,47 @@
+{
+    "00164779": {
+        "company_name": "에스케이하이닉스(주)",
+        "company_name_eng": "SK hynix Inc.",
+        "stock_code": "000660",
+        "ceo_name": "박정호, 곽노정 (각자대표)",
+        "address": "경기도 이천시  부발읍 경충대로 2091",
+        "induty_code": "2612",
+        "establish_date": "19491015"
+    },
+    "00877059": {
+        "company_name": "삼성바이오로직스(주)",
+        "company_name_eng": "SAMSUNG BIOLOGICS CO.,LTD.",
+        "stock_code": "207940",
+        "ceo_name": "임존종보 (Rim John Chongbo)",
+        "address": "인천광역시 연수구 송도바이오대로 300",
+        "induty_code": "21102",
+        "establish_date": "20110422"
+    },
+    "00356361": {
+        "company_name": "(주)LG화학",
+        "company_name_eng": "LG CHEM LTD",
+        "stock_code": "051910",
+        "ceo_name": "신학철",
+        "address": "서울특별시 영등포구  여의대로 128",
+        "induty_code": "20111",
+        "establish_date": "20010401"
+    },
+    "01515323": {
+        "company_name": "(주)엘지에너지솔루션",
+        "company_name_eng": "LG ENERGY SOLUTION, LTD.",
+        "stock_code": "373220",
+        "ceo_name": "권영수",
+        "address": "서울특별시 영등포구 여의대로 108, 타워 1",
+        "induty_code": "28202",
+        "establish_date": "20201201"
+    },
+    "00126380": {
+        "company_name": "삼성전자(주)",
+        "company_name_eng": "SAMSUNG ELECTRONICS CO,.LTD",
+        "stock_code": "005930",
+        "ceo_name": "한종희, 경계현",
+        "address": "경기도 수원시 영통구  삼성로 129 (매탄동)",
+        "induty_code": "264",
+        "establish_date": "19690113"
+    }
+}

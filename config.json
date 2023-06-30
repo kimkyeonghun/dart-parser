@@ -1,0 +1,19 @@
+{"dart_crawler": 
+    {"start_year": 2022,
+     "end_year": 2023,
+     "quarters": [1, 2, 3, 4],
+     "filing_types": "A001", 
+     "cik_tickers": ["005930", "373220", "000660", "207940", "051910"],
+     "raw_filings_folder": "RAW_FILINGS",
+     "indices_folder": "INDICES",
+     "filings_metadata_file": "FILINGS_METADATA.csv",
+     "api_key": "c4fe3adf9f733ad1d198b34108e1759f76c9ae7e",
+     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"},
+"extract_items": 
+    {"raw_filings_folder": "RAW_FILINGS",
+     "extracted_filings_folder": "EXTRACTED_FILINGS",
+     "filings_metadata_file": "FILINGS_METADATA.csv",
+     "items_to_extract": ["1", "2", "4"],
+     "remove_tables": true,
+     "skip_extracted_filings": true}
+}

@@ -1,0 +1,36 @@
+# 저장된 파일 경로
+file_path = "merged.html"
+
+# 구분자
+delimiter = "<!-- File:"
+
+# HTML 파일들을 저장할 딕셔너리
+html_files = {}
+
+with open(file_path, "r") as file:
+    lines = file.readlines()
+    current_html = ""
+    current_filename = None
+    
+    for line in lines:
+        if delimiter in line:
+            # 새로운 HTML 파일 시작
+            if current_filename is not None:
+                html_files[current_filename] = current_html
+            
+            current_filename = line.split(delimiter)[1].strip().rstrip("-->")
+            current_html = ""
+        else:
+            # HTML 파일 내용 추가
+            current_html += line
+    
+    # 마지막 HTML 파일 저장
+    if current_filename is not None:
+        html_files[current_filename] = current_html
+
+# HTML 파일들을 출력하거나 원하는 처리를 수행
+for filename, html_content in html_files.items():
+    print(f"Filename: {filename}")
+    print("HTML Content:")
+    print(html_content)
+    print("-------------------")
