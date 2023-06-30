@@ -7,7 +7,7 @@
      "raw_filings_folder": "RAW_FILINGS",
      "indices_folder": "INDICES",
      "filings_metadata_file": "FILINGS_METADATA.csv",
-     "api_key": "c4fe3adf9f733ad1d198b34108e1759f76c9ae7e",
+     "api_key": "",
      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"},
 "extract_items": 
     {"raw_filings_folder": "RAW_FILINGS",
